@@ -70,4 +70,10 @@ void call_f(op_func fuc, char *opc, char *v, int num, int formatt);
 void fierror(int err_code, ...);
 void serror(int err_code, ...);
 
+void sub_n(stack_t **st, unsigned int ln);
+void div_n(stack_t **st, unsigned int ln);
+void mul_n(stack_t **st, unsigned int ln);
+void mod_n(stack_t **st, unsigned int ln);
+
+
 #endif
