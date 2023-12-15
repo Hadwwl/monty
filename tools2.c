@@ -20,6 +20,10 @@ void find_f(char *opc, char *v, int num, int formatt)
 		{"nop", nop_n},
 		{"swap", swap_n},
 		{"add", add_n},
+		{"sub", sub_n},
+		{"div", div_n},
+		{"mul", mul_n},
+		{"mod", mod_n},
 		{NULL, NULL}
 	};
 
