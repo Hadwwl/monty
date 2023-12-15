@@ -1,6 +1,5 @@
 #include "monty.h"
 
-stack_t *head = NULL;
 /**
  * cr_node - creates node in stack
  * @n: number that holded inside the node

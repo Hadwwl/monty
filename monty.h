@@ -70,5 +70,4 @@ void call_f(op_func fuc, char *opc, char *v, int num, int formatt);
 void fierror(int err_code, ...);
 void serror(int err_code, ...);
 
-
 #endif

@@ -47,13 +47,13 @@ int parse_l(char *buff, int ln, int formatt)
 	{
 		fierror(4);
 	}
-	
+
 	opc = strtok(buff, deli);
 	if (opc == NULL)
 	{
 		return (formatt);
 	}
-	
+
 	v = strtok(NULL, deli);
 	if (strcmp(opc, "stack") == 0)
 	{
